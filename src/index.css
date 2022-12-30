@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.header-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 80px;
+}
+
+.header-container button{
+  outline: none;
+  background: black;
+  color: white;
+  padding: 4px 8px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
